@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 const navigation = [
@@ -83,7 +84,7 @@ export default function Header() {
         </nav>
 
         <a
-          className="hidden rounded-full bg-teal-700 px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-teal-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700 sm:inline-flex"
+          className="hidden rounded-full bg-teal-700 px-5 py-2.5 text-xs font-semibold text-white transition-colors hover:bg-teal-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700 xl:inline-flex"
           href="#kontak"
         >
           Hubungi Kami
@@ -135,7 +136,7 @@ export default function Header() {
           </a>
         ))}
         <a
-          className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-teal-700 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-teal-800 sm:hidden"
+          className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-teal-700 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-teal-800 xl:hidden"
           href="#kontak"
           onClick={() => setIsMenuOpen(false)}
         >
